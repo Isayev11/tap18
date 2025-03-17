@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(41, 184, 41, 0.991);
+}
+
+.white{
+    width: 80vw;
+    padding: 90px;
+    margin: 50px auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 30%;
+}
+
+.item{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    width: 10vw;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+.color{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+button{
+    background-color: green;
+    padding: 15px;
+    display: block;
+    width: 15vw;
+    border-radius: 5px;
+}
+
+.right{
+    margin-top: 10px;
+}
+.item:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+}
